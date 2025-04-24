@@ -27,12 +27,14 @@ The Student Management System API is a RESTful service built using Spring Boot, 
 
 1.   **Save a Student:** Adds a new student record to the system.
       -   Endpoint: POST /save
+
           ![add_sms](https://github.com/user-attachments/assets/f283d643-fdb6-47cb-8659-db55a4fe5d3f)
 
 2.   **Fetch a Student:**
 
      - *Fetch Student by ID -* Retrieves a student’s full details using their unique ID.
        - Endpoint: GET /fetch/{id}
+
          ![fetch_id_sms](https://github.com/user-attachments/assets/fbcd04df-63bb-40b7-bd9e-0b627662a19f)
   
      - *Login via Phone & Password -* Authenticates a student using their registered phone number and password.
