@@ -3,7 +3,7 @@
 ## Introdution :
 The Student Management System API is a RESTful service built using Spring Boot, designed to handle student-related operations efficiently. This backend system allows for the creation, updating, retrieval, and authentication of student records through well-defined API endpoints. It ensures seamless data management and integration possibilities for academic platforms or administrative portals.
 
-*API Testing with Postman*
+*API Testing with Postman:*
 All API endpoints have been tested and verified using Postman, a popular tool for API testing and development. JSON request bodies and query parameters were used to simulate real-world use cases, ensuring each endpoint functions as expected under various scenarios.
 
 *-------- Main Features: --------*
@@ -32,7 +32,8 @@ All API endpoints have been tested and verified using Postman, a popular tool fo
       -   Result/Output:
 
 2.   **Fetch a Student:**
-      -   *Fetch Student by ID* 
+      -   *Fetch Student by ID*
+              -      Endpoint: GET /fetch/{id}
       -   *Login via Phone & Password*
       -   *Login via Email & Password*
       -   *Get All Students*
