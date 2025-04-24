@@ -39,18 +39,22 @@ The Student Management System API is a RESTful service built using Spring Boot, 
   
      - *Login via Phone & Password -* Authenticates a student using their registered phone number and password.
        - Endpoint: GET /fetch/{phone}/{password}
+
          ![fetch_phn_pass_sms](https://github.com/user-attachments/assets/540063d9-06e6-4e43-863e-4c8c37be2729)
          
      - *Login via Email & Password -* Authenticates a student using their registered email and password.
        - Endpoint: GET /fetch?email={email}&password={password}
+
          ![fetch_email_pass](https://github.com/user-attachments/assets/2d9b861a-7c62-41c8-bce7-0bb63982761e)
 
      - *Get All Students -* Returns a list of all registered students in the database.
        - Endpoint: GET /fetch/all
+
          ![fetch_all_sms](https://github.com/user-attachments/assets/18d34064-9f4d-4ed5-970d-abbbebcfc28d)
 
 4.  **Update a Student:** Updates an existing student’s information using their ID.
       -   Endpoint: PUT /update
+
           ![update_sms](https://github.com/user-attachments/assets/a32dce8e-4a53-41a1-ac27-2e66be52618d)
 
 ## Technologies Used :
