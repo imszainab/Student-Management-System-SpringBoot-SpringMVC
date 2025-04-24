@@ -29,19 +29,29 @@ All API endpoints have been tested and verified using Postman, a popular tool fo
 
 1.   **Save a Student:** 
       -   Endpoint: POST /save
-          
+          ![add_sms](https://github.com/user-attachments/assets/f283d643-fdb6-47cb-8659-db55a4fe5d3f)
+
 2.   **Fetch a Student:**
+
      - *Fetch Student by ID*
        - Endpoint: GET /fetch/{id}
+         ![fetch_id_sms](https://github.com/user-attachments/assets/fbcd04df-63bb-40b7-bd9e-0b627662a19f)
+  
      - *Login via Phone & Password*
        - Endpoint: GET /fetch/{phone}/{password}
+         ![fetch_phn_pass_sms](https://github.com/user-attachments/assets/540063d9-06e6-4e43-863e-4c8c37be2729)
+         
      - *Login via Email & Password*
        - Endpoint: GET /fetch?email={email}&password={password}fetch/{id}
+         ![fetch_email_pass](https://github.com/user-attachments/assets/2d9b861a-7c62-41c8-bce7-0bb63982761e)
+
      - *Get All Students*
        - Endpoint: GET /fetch/all
+         ![fetch_all_sms](https://github.com/user-attachments/assets/18d34064-9f4d-4ed5-970d-abbbebcfc28d)
 
-3.  **Update a Student:**
+4.  **Update a Student:**
       -   Endpoint: PUT /update
+          ![update_sms](https://github.com/user-attachments/assets/a32dce8e-4a53-41a1-ac27-2e66be52618d)
 
 ## Technologies Used :
 -   Java 17
