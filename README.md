@@ -40,10 +40,18 @@ All API endpoints have been tested and verified using Postman, a popular tool fo
       -   *Get All Students*
   
 2.   **Fetch a Student:**
-     - **Fetch Student by ID**
+     - *Fetch Student by ID*
        - Endpoint
        - Endpoint
      - *Login via Phone & Password*
+       - Endpoint
+       - Endpoint
+     - *Login via Phone & Password*
+       - Endpoint
+       - Endpoint
+     - *Login via Phone & Password*
+       - Endpoint
+       - Endpoint
 
 3.  **Update a Student:**
       -   Endpoint: PUT /update
