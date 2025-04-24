@@ -29,14 +29,6 @@ All API endpoints have been tested and verified using Postman, a popular tool fo
 
 1.   **Save a Student:** 
       -   Endpoint: POST /save
-      -   Request Body (JSON):
-          {
-              "id": 1,
-              "name": "John Doe",
-              "email": "john@example.com",
-              "phone": 1234567890,
-              "password": "john123"
-          }
           
 2.   **Fetch a Student:**
      - *Fetch Student by ID*
@@ -50,14 +42,6 @@ All API endpoints have been tested and verified using Postman, a popular tool fo
 
 3.  **Update a Student:**
       -   Endpoint: PUT /update
-      -   Request Body (JSON):
-          {
-              "id": 1,
-              "name": "John Doe",
-              "email": "john@example.com",
-              "phone": 1234567890,
-              "password": "john123"
-          }
 
 ## Technologies Used :
 -   Java 17
